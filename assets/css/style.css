@@ -160,7 +160,13 @@ a:hover{
     position: fixed;
     width: 100%;
     /* background: linear-gradient(0deg, rgba(238,237,228,0 ) 0.00%, #eeede4 100.00%); */
-    background-color: #fff;
+    background-color:  #eeede4;
+    /* background: rgba(238,237,228,0 ); */
+/* background: linear-gradient(0deg, 
+rgba(238,237,228,0 ) 0.00%, 
+#eeede4 100.00%); */
+    transition: 0.6s;
+
   }
   .top-navbar .navbar-fixed .navbar-brand img{
     top: -24px;
@@ -253,6 +259,11 @@ a:hover{
    width: 80px;
    height: 80px;
    z-index: 1;
+   
+}
+.assessment-form-section .arrow-down img{
+    margin-top: -5px;
+    animation: jumpInfinite 1.5s infinite;
 }
 .assessment-form-caption h2{
     font-family: 'Montserrat', sans-serif;
@@ -273,6 +284,17 @@ a:hover{
 .assessment-form form input{
     border-radius: 3px;
 }
+@keyframes jumpInfinite {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 20px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
 
 /* .counselling-section  */
 .counselling-section{
