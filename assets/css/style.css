@@ -326,7 +326,7 @@ rgba(238,237,228,0 ) 0.00%,
     position: relative;
 }
 .counselling__slide.owl-carousel .owl-nav{
-    display: block !important;
+    display: block;
 }
 .counselling__slide.owl-carousel .owl-nav button.owl-next{
     position: absolute;
@@ -539,13 +539,13 @@ text-align: left !important;
     color: #868686;
 }
 .testimonial-carousel .owl-dots{
-    display: block !important;
+    display: block;
 }
 .testimonial-carousel.owl-carousel{
     position: relative;
 }
 .testimonial-carousel.owl-carousel .owl-nav{
-    display: block !important;
+    display: block ;
 }
 .testimonial-carousel.owl-carousel .owl-nav button.owl-next{
     position: absolute;
@@ -586,7 +586,7 @@ text-align: left !important;
     height: 100%;
     max-height: 135px;
     overflow: hidden;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 .faq-section .section-title .title-dcs p{
 

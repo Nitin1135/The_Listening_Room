@@ -65,8 +65,9 @@
     .footer-subscribe .social-media{
         flex-wrap: wrap;
     }
+    .footer-subscribe .social-media .icon-items,
     .footer-subscribe .social-media p{
-        margin-top: 15px;
+        margin-bottom: 15px;
     }
     .faq-section .section-title .title-dcs p,
     .meet-listeners-section .section-title .title-dcs p,
@@ -79,6 +80,15 @@
     .footer-subscribe input.form-control{
         margin-bottom: 15px;
         height: 48px;
+        margin-right: 0px !important;
+    }
+    .counselling__slide.owl-carousel .owl-nav button.owl-next,
+    .counselling__slide.owl-carousel .owl-nav button.owl-prev{
+        display: none !important;
+    }
+    .testimonial-carousel.owl-carousel .owl-nav button.owl-next,
+    .testimonial-carousel.owl-carousel .owl-nav button.owl-prev{
+        display: none !important;
     }
 }
 
@@ -169,6 +179,14 @@
         margin-bottom: 15px;
         height: 48px;
     }
+    .counselling__slide.owl-carousel .owl-nav button.owl-next,
+    .counselling__slide.owl-carousel .owl-nav button.owl-prev{
+        display: none !important;
+    }
+    .testimonial-carousel.owl-carousel .owl-nav button.owl-next,
+    .testimonial-carousel.owl-carousel .owl-nav button.owl-prev{
+        display: none !important;
+    }
 }
 
 @media (min-width:992px) and (max-width:1023px){
@@ -177,6 +195,21 @@
     }
     .counter-section .counter-card .counter, .counter-section .counter-card .num-pluse{
         font-size: 80px;
+    }
+    .testimonial-carousel.owl-carousel .owl-nav button.owl-next{
+        right: -35px;
+    }
+    .testimonial-carousel.owl-carousel .owl-nav button.owl-prev{
+        left: -35px;
+    }
+    .counselling__slide.owl-carousel .owl-nav{
+        display: block !important;
+    }
+    .counselling__slide.owl-carousel .owl-nav button.owl-next{
+        right: -20px;
+    }
+    .counselling__slide.owl-carousel .owl-nav button.owl-prev{
+        left: -20px;
     }
 
 }
@@ -197,8 +230,25 @@
     .top-right-block{
         display: none;
     }
+    .testimonial-carousel.owl-carousel .owl-nav button.owl-next{
+        right: -45px;
+    }
+    .testimonial-carousel.owl-carousel .owl-nav button.owl-prev{
+        left: -45px;
+    }
+    .counselling__slide.owl-carousel .owl-nav{
+        display: block !important;
+    }
+    .counselling__slide.owl-carousel .owl-nav button.owl-next{
+        right: -35px;
+    }
+    .counselling__slide.owl-carousel .owl-nav button.owl-prev{
+        left: -35px;
+    }
 }
 
 @media (min-width:1200px){
-  
+    .counselling__slide.owl-carousel .owl-nav{
+        display: block !important;
+    }
 }
