@@ -22,28 +22,28 @@
     .slider-block .slide-content h2,
     .assessment-form-caption h2,
     .section-title h2{
-        font-size: 25px;
+        font-size: 30px;
     }
     .section-title p{
-        font-size: 16px;
+        font-size: 18px;
         line-height: 30px;
     }
     .counselling-card-body p{
-        font-size: 16px;
+        font-size: 18px;
         text-align: center !important;
     }
     .assessment-form-section .arrow-down{
         left: 40%;
     }
     .counter-section .counter-card .counter, .counter-section .counter-card .num-pluse{
-        font-size: 50px;
+        font-size: 70px;
     }
     .testimonial-section .testiminial-content p{
-        font-size: 16px;
+        font-size: 18px;
         line-height: 30px;
     }
     .faq-section .accordion-item .accordion-header .accordion-button{
-        font-size: 16px;
+        font-size: 18px;
         line-height: 30px;
     }
     .faq-section .accordion-item .accordion-collapse .accordion-body p{
@@ -51,7 +51,7 @@
         line-height: 30px;
     }
     .news-cart .news-cart-body h3{
-        font-size: 20px;
+        font-size: 24px;
     }
     .footer-section .footer-logo{
         max-width: 60%;
@@ -74,7 +74,7 @@
     .we-listen-content .section-title p,
     .counselling-section .section-title .title-dcs p,
     .story-content-block .section-title .story-dsc p{
-        font-size: 16px;
+        font-size: 18px;
         line-height: 30px;
     }
     .footer-subscribe input.form-control{
@@ -116,16 +116,16 @@
         padding: 10px 0px 10px 0px;
     }
     .footer-subscribe p{
-        font-size: 13px;
-    }
-    .footer-subscribe .social-media p{
         font-size: 14px;
     }
+    .footer-subscribe .social-media p{
+        font-size: 16px;
+    }
     .news-cart .news-cart-body h3{
-        font-size: 18px;
+        font-size: 22px;
     }
     .slider-block .slide-content h2, .assessment-form-caption h2, .section-title h2{
-        font-size: 25px;
+        font-size: 30px;
     }
     .faq-section .section-title .title-dcs p,
     .meet-listeners-section .section-title .title-dcs p,
@@ -133,30 +133,30 @@
     .counselling-section .section-title .title-dcs p,
     .story-content-block .section-title .story-dsc p,
     .counselling-card-body p{
-        font-size: 16px;
+        font-size: 18px;
         line-height: 30px;
     }
     .counter-section .counter-card .counter, .counter-section .counter-card .num-pluse{
-        font-size: 50px;
+        font-size: 70px;
     }
     .testimonial-section .testiminial-content p{
-        font-size: 16px;
+        font-size: 18px;
         line-height: 30px;
     }
     .faq-section .accordion-item .accordion-header .accordion-button{
-        font-size: 16px;
+        font-size: 18px;
         line-height: 30px;
     }
     .faq-section .accordion-item .accordion-collapse .accordion-body p{
-        font-size: 14px;
+        font-size: 16px;
         line-height: 30px;
     }
     .testimonial-section .testiminial-content h3,
     .counselling-card-body h3{
-        font-size: 22px;
+        font-size: 24px;
     }
     .listeners-team-card h3{
-        font-size: 16px;
+        font-size: 18px;
     }
     .listeners-team-card p{
         font-size: 14px;
