@@ -10,12 +10,16 @@ body{
 
 /* primary-color : #205741 */
 /* secondary-color : #64932F */
-
+.form-check-input:checked{
+    background-color: #64932f;
+    border-color: #64932f;
+}
 li{
     list-style-type: none;
 }
 a{
     color: #205741;
+    text-decoration: none;
 }
 a:hover{
     text-decoration: none;
@@ -420,6 +424,7 @@ text-align: left !important;
 }
 
 /* Story section css  */
+
 .story-section{
     background: url('../images/Banners/story-banner.png') no-repeat fixed 100%;
     background-size: cover;
@@ -882,7 +887,8 @@ text-align: left !important;
     padding: 15px 0px 15px 0px ;
 }
 .footer-section .footer-logo{
-    max-width: 85%;
+    max-width: 70%;
+    /* max-width: 85%; */
 }
 .footer-section .footer-link ul li a{
     font-family: 'Montserrat', sans-serif;
@@ -949,6 +955,14 @@ text-align: left !important;
 
 .header-banner-parallax-one{
     background: url('../images/Banners/story-banner.png') repeat fixed 100%;
+    background-size: cover;
+}
+.header-banner-parallax-two{
+    background: url('../images/Banners/blog-bg.jpg') repeat fixed 100%;
+    background-size: cover;
+}
+.header-banner-parallax-three{
+    background: url('../images/Banners/contact-bg.jpg') repeat fixed 100%;
     background-size: cover;
 }
 .header-banner-section .header-banner-title{
@@ -1018,4 +1032,149 @@ text-align: left !important;
 .inside-section .assessment-form-section .assessment-form form .default-btn:hover{
     background-color:  #205741;
     color: #fff;
+}
+
+
+
+/* questioner-section */
+.questioner-section{
+    background-color: #eeede4;
+    padding: 100px 0px 100px 0px;
+}
+.questioner-section .questioner-form-caption h2{
+    color: #205741;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    /* font-size: 44px; */
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+.questioner-section .questioner-form-caption p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: #205741;
+    text-align: center !important;
+}
+.questioner-form .form-group input, .form-group select{
+    border-radius: 3px;
+    height: 45px;
+    background-color: #fff;
+    /* background-color: #eeede4; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.questioner-form .form-group label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #205741;
+    font-weight: 500;
+}
+.select-questioner h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #205741;
+    font-weight: 500;
+}
+.select-questioner{
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 60px 15px;
+    text-align: center;
+}
+.select-questioner .form-check{
+    display: inline-block;
+    text-align: center;
+    margin: 20px 20px 0px 0px;
+}
+.select-questioner .q-control-btngroup .btn.btn-success{
+   width: 100%;
+   max-width: 100px;
+   margin: 15px;
+}
+.select-questioner .form-check-input:checked{
+    background-color: #205741;
+    border-color: #205741;
+}
+.select-questioner .form-check-input{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.select-questioner .form-check .form-check-label{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+/* Founder section  */
+.founder-section{
+    background-color: #ffffff;
+    padding: 100px 0px 100px 0px;
+}
+.founder-section .listener-profile img{
+    padding: 0px 0px 0px 50px;
+}
+
+
+/* .register-section */
+.register-section .assessment-form form input.form-check-input{
+    height:1em;
+}
+
+/* Login modal css  */
+.login-form a.credencial-note,
+.register-form a.credencial-note
+{
+    color: #64932f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+}
+.login-form a.credencial-note:hover,
+.register-form a.credencial-note:hover
+{
+    color: #fff;
+}
+.register-form .age-gender-row label{
+    color: #fff;
+}
+.register-form .age-gender-row input{
+    height: 1em;
+}
+
+
+/* Blog details section  */
+.news-details-section{
+    background-color: #ffffff;
+    padding: 100px 0px 100px 0px;
+}
+.news-details-section .blog-img img{
+    height: 450px;
+    object-fit: cover;
+}
+.news-details-section .blog-content-body small{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #868686;
+}
+.news-details-section .blog-content-body h3{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #64932f;
+}
+.news-details-section .blog-content-body p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    font-style: normal;
+    color: #868686;
 }

@@ -65,25 +65,25 @@
                                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="navbar-nav mb-2 mb-lg-0">
                                       <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Know yourself</a>
+                                        <a class="nav-link active" aria-current="page" href="faq-2.html">Know yourself</a>
                                       </li>
                                       <li class="nav-item">
-                                        <a class="nav-link" href="#">Psychologists</a>
+                                        <a class="nav-link" href="questioner.html">Psychologists</a>
                                       </li>
                                       <li class="nav-item">
-                                        <a class="nav-link" href="#">About</a>
+                                        <a class="nav-link" href="our-story.html">About</a>
                                       </li>
                                       <li class="nav-item">
-                                        <a class="nav-link" href="#">Blog</a>
+                                        <a class="nav-link" href="blog.html">Blog</a>
                                       </li>
                                       <li class="nav-item">
-                                        <a class="nav-link" href="#">FAQ's</a>
+                                        <a class="nav-link" href="faq.html">FAQ's</a>
                                       </li>
                                       <li class="nav-item">
-                                        <a class="nav-link" href="#">Join us</a>
+                                        <a class="nav-link" href="popup-page.html">Join us</a>
                                       </li>
                                       <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact</a>
+                                        <a class="nav-link" href="inside-2.html">Contact</a>
                                       </li>
                                      
                                     </ul>
@@ -105,6 +105,166 @@
 
         <!-- all modal code  -->
         <div style="padding: 200px 100px;">
+          <!-- Login  -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+                Login modal
+              </button>
+              <div class="modal fade conversation-modal" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header border-0">
+                      <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                      <button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="assets/images/Vectors/cancel.png" alt="">
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="assessment-form">
+                            <div class="assessment-form-caption mb-4">
+                                <h2>Login The Listening Room</h2>
+                            </div>
+                            <form class="login-form" action="">
+                                <div class="row">
+                                    <div class="col-md-12 mb-4">
+                                      <input type="email" class="form-control" placeholder="Email" aria-label="Email">
+                                    </div>
+                                    <div class="col-md-12  mb-4">
+                                      <input type="password" class="form-control" placeholder="Password" aria-label="Password">
+                                    </div>
+                                    <div class="col-md-12  mb-4">
+                                      <a class="credencial-note" href="">Forgot Password ?</a>
+                                    </div>
+                                  </div>
+                                <!-- <div class="row">
+                                    <div class="col-md-6  mb-4">
+                                      <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address">
+                                    </div>
+                                    <div class="col-md-6  mb-4">
+                                      <input type="text" class="form-control" placeholder="Location" aria-label="Location">
+                                    </div>
+                                  </div> -->
+                                  <div class="row">
+                                    <div class="col-md-12  mb-4">
+                                        <button class="btn btn-success default-btn w-100">Login</button>
+                                    </div>
+                                    <div class="col-md-12 text-center mb-4">
+                                        <p class="text-center">Don’t have an account? <a class="credencial-note" href="">Register</a></p>
+                                    </div>
+                                  </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <!-- Register modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registerModal">
+               Register modal
+              </button>
+
+              <div class="modal fade conversation-modal" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header border-0">
+                      <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                      <button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="assets/images/Vectors/cancel.png" alt="">
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="assessment-form">
+                            <div class="assessment-form-caption mb-4">
+                                <h2>Register The Listening Room</h2>
+                            </div>
+                            <form class="register-form" action="">
+                                <div class="row">
+                                    <div class="col-md-12 mb-4">
+                                      <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name">
+                                    </div>
+                                    <div class="col-md-6  mb-4">
+                                      <input type="email" class="form-control" placeholder="Email" aria-label="Email">
+                                    </div>
+                                    <div class="col-md-6  mb-4">
+                                      <input type="tel" class="form-control" placeholder="Mobile" aria-label="Mobile">
+                                    </div>
+                                    <div class="col-md-12  mb-4">
+                                      <input type="password" class="form-control" placeholder="Password" aria-label="Password">
+                                    </div>
+                                    <div class="row age-gender-row p-0 m-0">
+                                      <div class="form-group col-md-12">
+                                        <label for="inputName4">
+                                          Gender
+                                        </label>
+                                        <div class="d-flex align-items-center flex-wrap my-3">
+                                          <div class=" form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="txtgender" id="gender_male" value="male" required="">
+                                            <label class="form-check-label" for="gender_male">
+                                              Male
+                                            </label>
+                                          </div>
+                                          <div class=" form-check form-check-inline ">
+                                            <input class="form-check-input" type="radio" name="txtgender" id="gender_female" value="female">
+                                            <label class="form-check-label" for="gender_female">
+                                              Female
+                                            </label>
+                                          </div>
+                                          <div class=" form-check form-check-inline ">
+                                            <input class="form-check-input" type="radio" name="txtgender" id="gender_other" value="other">
+                                            <label class="form-check-label" for="gender_other">
+                                              Other
+                                            </label>
+                                          </div>
+                                        </div>
+                                        
+                                      </div>
+                                     
+                                    </div>
+                                    <div class="col-md-6  mb-4">
+                                      <input type="text" class="form-control" placeholder="Age" aria-label="Age">
+                                    </div>
+                                    <div class="col-md-6  mb-4">
+                                      <input type="text" class="form-control" placeholder="City" aria-label="City">
+                                    </div>
+                                    <div class="col-md-6  mb-4">
+                                      <input type="text" class="form-control" placeholder="State" aria-label="State">
+                                    </div>
+                                    <div class="col-md-6  mb-4">
+                                      <input type="text" class="form-control" placeholder="Country" aria-label="Country">
+                                    </div>
+                                  </div>
+                                <!-- <div class="row">
+                                    <div class="col-md-6  mb-4">
+                                      <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address">
+                                    </div>
+                                    <div class="col-md-6  mb-4">
+                                      <input type="text" class="form-control" placeholder="Location" aria-label="Location">
+                                    </div>
+                                  </div> -->
+                                  <div class="row">
+                                    <div class="col-md-12  mb-4">
+                                        <button class="btn btn-success default-btn w-100">Register Now</button>
+                                    </div>
+                                    <div class="col-md-12 text-center mb-4">
+                                        <p class="text-center">Already have an account? <a class="credencial-note" href="">Login</a></p>
+                                    </div>
+                                  </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- Conversation-modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Conversation-modal
               </button>
